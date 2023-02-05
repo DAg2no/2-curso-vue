@@ -8,7 +8,7 @@ import blogPost from './components/BlogPost.vue'
     <div class="container pt-4">
         <h1>APP</h1>
 <ButtonCounter />
-<ButtonCounter/>
+<ButtonCounter />
 
 <blogPost title="Post 1"/>
 <blogPost title="Post 2"/>
