@@ -15,6 +15,5 @@ import blogPost from './components/BlogPost.vue'
 <blogPost title="Post 3"/>
 
     </div>
-
 </template>
 
