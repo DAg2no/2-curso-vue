@@ -26,7 +26,7 @@ let emit = defineEmits(['cambiarfavoritonombre'])
         <div class="card-body">
             <h5 class="card-title">{{ id }} - {{ title }}</h5>
             <p>{{ body }}</p>
-            <button @click="emit('cambiarfavoritos', title)" class="btn btn-outline-danger">favorite</button>
+            <button @click="emit('cambiarfavorito', title)" class="btn btn-outline-danger">favorite</button>
         </div>
     </div>
 </template>
